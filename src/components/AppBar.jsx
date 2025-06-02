@@ -12,7 +12,6 @@ const AppBar = () => {
       >
         <img src="/icons/menu-icon.svg" alt="Menu" className="w-8 h-8" />
       </button>
-
       <div className="hidden xl:flex gap-10 items-center text-[#FFFFFF]">
         <button className="flex items-center gap-2 text-[16px] cursor-pointer">
           حسابي
