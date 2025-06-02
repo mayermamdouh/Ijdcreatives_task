@@ -9,7 +9,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               49 يوم
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2  bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
@@ -94,7 +94,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               249 يوم - 2011
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2  bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
@@ -180,7 +180,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               49 يوم
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2 bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
@@ -270,7 +270,7 @@ const ThirdSection = () => {
               className="w-[31px] h-[31px]  "
             />
           </div>
-          <div className="flex flex-row-reverse items-center gap-5">
+          <div className="flex flex-row-reverse flex-wrap items-center gap-5">
             <div className="text-[15px]">
               Jul20 SAR Dirt Gd: 4F in 51 1\5 (23 of 34) B
             </div>
