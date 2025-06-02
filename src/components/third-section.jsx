@@ -263,14 +263,13 @@ const ThirdSection = () => {
           </div>
         </section>
         <div className="flex flex-row-reverse justify-between items-center w-full bg-[#008062] text-white px-7 py-4 rounded-[46px]">
-          <div className="pl-5">
+          <div className="pl-3 sm:pl-5 flex-shrink-0">
             <img
               src="/icons/back-button-white.svg"
               alt="arrow-icon"
-              className="w-[31px] h-[31px]"
+              className="w-[24px] h-[24px] sm:w-[31px] sm:h-[31px]"
             />
           </div>
-
           <div className="flex flex-row-reverse flex-wrap gap-5 items-center">
             <div className="text-[15px]">
               Jul20 SAR Dirt Gd: 4F in 51 1\5 (23 of 34) B
