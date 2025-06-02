@@ -9,7 +9,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               49 يوم
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 h-auto py-10 2xl:h-[91px] 2xl:py-0 bg-[#F2F2F2] rounded-[46px] items-center justify-between px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-between px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
@@ -94,7 +94,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               249 يوم - 2011
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 h-auto py-10 2xl:h-[91px] 2xl:py-0 bg-[#F2F2F2] rounded-[46px] items-center justify-between	 px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-between	 px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
@@ -180,7 +180,7 @@ const ThirdSection = () => {
             <div className="text-[34px] text-[#177245]" dir="rtl">
               49 يوم
             </div>
-            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 h-auto py-10 2xl:h-[91px] 2xl:py-0 bg-[#F2F2F2] rounded-[46px] items-center justify-between	 px-7">
+            <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-6 bg-[#F2F2F2] rounded-[46px] items-center justify-between	 px-7">
               <div className="flex flex-col items-center text-[20px]">
                 <span>BHP</span>
                 <span dir="rtl">25 إبريل</span>
