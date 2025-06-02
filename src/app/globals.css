@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* 
+:root {
+ 
+
+
+}
+ */
+
+body {
+  font-family: 'HelveticaArabic', sans-serif;
+  direction: ltr;
+}
+
+@font-face {
+  font-family: "HelveticaArabic";
+  src: url("/fonts/alfont_com_AlFont_com_helveticaneueltarabicroman1.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
