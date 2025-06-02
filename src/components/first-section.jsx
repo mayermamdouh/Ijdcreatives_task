@@ -13,7 +13,7 @@ const FirstPage = () => {
         <p className="text-[20px] sm:text-[28px] md:text-[34px] lg:text-[40px] mb-6">
           العنوان الفرعي هنا او التفاصيل
         </p>
-        <button className="bg-[#FFBF00] text-[#000E5A] w-[141px] h-[36px] rounded-3xl text-[14px] sm:text-[16px] cursor-pointer">
+        <button className="bg-[#FFBF00] text-[#000E5A] w-[141px] sm:w-[160px] md:w-[180px] h-[36px] sm:h-[42px] md:h-[48px] rounded-3xl text-[14px] sm:text-[16px] cursor-pointer">
           <div className="flex flex-row justify-center items-center gap-3">
             <img src="/icons/left-arrow.svg" className="w-4 h-4" />
             اذهب إلى

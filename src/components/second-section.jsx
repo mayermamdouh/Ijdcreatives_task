@@ -45,7 +45,7 @@ const SecondPage = () => {
   ];
   return (
     <div className="flex flex-col px-4 sm:px-[110px] py-[50px] text-right w-[100%]">
-      <div className="text-[61px] text-[#177245]">رزنامة السباقات</div>
+      <div className="text-[30px] sm:text-[48px] md:text-[61px] text-[#177245]">رزنامة السباقات</div>
 
       <div className="relative w-full flex flex-row justify-center mt-7 gap-4">
         <div className="overflow-x-auto w-full sm:w-[85%]">
@@ -59,11 +59,11 @@ const SecondPage = () => {
                   >
                     <div className="flex flex-col ">
                       {date.day === "28" ? (
-                        <div className="text-[57px] text-[#FFBF00]">
+                        <div className="text-[28px] sm:text-[36px] md:text-[57px] text-[#FFBF00]">
                           {date.day}
                         </div>
                       ) : (
-                        <div className="text-[57px] text-[#177245]">
+                        <div className="text-[28px] sm:text-[36px] md:text-[57px] text-[#177245]">
                           {date.day}
                         </div>
                       )}

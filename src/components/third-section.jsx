@@ -262,15 +262,16 @@ const ThirdSection = () => {
             </div>
           </div>
         </section>
-        <div className="flex flex-row-reverse flex-wrap text-[#FFFFFF] w-full h-auto py-10 2xl:h-[49px] 2xl:py-0 bg-[#008062] rounded-[46px] items-center gap-3 px-7">
-          <div className="pl-5 ml-auto">
+        <div className="flex flex-row-reverse justify-between items-center w-full bg-[#008062] text-white px-7 py-4 rounded-[46px]">
+          <div className="pl-5">
             <img
               src="/icons/back-button-white.svg"
               alt="arrow-icon"
-              className="w-[31px] h-[31px]  "
+              className="w-[31px] h-[31px]"
             />
           </div>
-          <div className="flex flex-row-reverse flex-wrap items-center gap-5">
+
+          <div className="flex flex-row-reverse flex-wrap gap-5 items-center">
             <div className="text-[15px]">
               Jul20 SAR Dirt Gd: 4F in 51 1\5 (23 of 34) B
             </div>
@@ -278,7 +279,7 @@ const ThirdSection = () => {
               Jul27 SAR Turf tr.tFrm: 5F in 57 1\5 (1 of 2) B
             </div>
             <div className="flex flex-row items-center pl-4">
-              <span className="mr-3 text-[15px] sm:text-[19px]  break-all">
+              <span className="mr-3 text-[15px] sm:text-[19px] break-all">
                 WORKOUTS
               </span>
               <div className="text-[15px]">
