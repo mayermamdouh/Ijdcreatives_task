@@ -13,10 +13,10 @@ const FirstPage = () => {
         <p className="text-[20px] sm:text-[28px] md:text-[34px] lg:text-[40px] mb-6">
           العنوان الفرعي هنا او التفاصيل
         </p>
-        <button className="bg-[#FFBF00] text-[#000E5A] w-[141px] sm:w-[160px] md:w-[180px] h-[36px] sm:h-[42px] md:h-[48px] rounded-3xl text-[14px] sm:text-[16px] cursor-pointer">
+        <button className="bg-[#FFBF00] text-[#000E5A] w-[141px]  h-[36px]  rounded-3xl text-[16px]  cursor-pointer ">
           <div className="flex flex-row justify-center items-center gap-3">
-            <img src="/icons/left-arrow.svg" className="w-4 h-4" />
-            اذهب إلى
+            <img src="/icons/left-arrow.svg" className="w-[20px] h-[17px] " />
+            <div className="mb-1">اذهب إلى</div>
           </div>
         </button>
       </div>
@@ -29,14 +29,14 @@ const FirstPage = () => {
               key={index}
               className="bg-[#008062]/55 w-[280px] sm:w-[300px] md:w-[338px] h-[187px]"
             >
-              <div className="flex flex-col p-6 sm:p-8 md:p-10">
+              <div className="flex flex-col p-6 sm:p-7 md:p-8">
                 <div className="text-[16px] sm:text-[18px] md:text-[21px]">
                   20/3/2025
                 </div>
-                <div className="text-[24px] sm:text-[30px] md:text-[38px]">
+                <div className="text-[24px] sm:text-[30px] md:text-[38px] -mt-2">
                   عنوان رئيسي
                 </div>
-                <div className="text-[16px] sm:text-[18px] md:text-[21px]">
+                <div className="text-[16px] sm:text-[18px] md:text-[21px] mt-3">
                   العنوان الفرعي هنا او التفاصيل
                 </div>
               </div>

@@ -1,15 +1,7 @@
 @import "tailwindcss";
 
-/* 
-:root {
- 
-
-
-}
- */
-
 body {
-  font-family: 'HelveticaArabic', sans-serif;
+  font-family: "HelveticaArabic", sans-serif;
   direction: ltr;
 }
 

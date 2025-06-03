@@ -44,7 +44,7 @@ const AppBar = () => {
         <button className="text-center cursor-pointer">عن ميادين</button>
       </div>
 
-      <div className="flex-shrink-0 cursor-pointer ml-auto xl:ml-4">
+      <div className="flex-shrink-0 cursor-pointer ml-auto xl:ml-[60px]">
         <img src="/logo.svg" alt="Logo" className="w-[193.38px] h-[58.02px]" />
       </div>
 

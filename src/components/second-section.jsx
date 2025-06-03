@@ -45,7 +45,9 @@ const SecondPage = () => {
   ];
   return (
     <div className="flex flex-col px-4 sm:px-[110px] py-[50px] text-right w-[100%]">
-      <div className="text-[30px] sm:text-[48px] md:text-[61px] text-[#177245]">رزنامة السباقات</div>
+      <div className="text-[30px] sm:text-[48px] md:text-[61px] text-[#177245]">
+        رزنامة السباقات
+      </div>
 
       <div className="relative w-full flex flex-row justify-center mt-7 gap-4">
         <div className="overflow-x-auto w-full sm:w-[85%]">
@@ -57,7 +59,7 @@ const SecondPage = () => {
                     key={index}
                     className=" h-[60px] border-[2px] border-[#E3E3E3] text-center py-3 font-[Helvetica Neue LT Arabic]"
                   >
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col font-light">
                       {date.day === "28" ? (
                         <div className="text-[28px] sm:text-[36px] md:text-[57px] text-[#FFBF00]">
                           {date.day}
@@ -67,7 +69,7 @@ const SecondPage = () => {
                           {date.day}
                         </div>
                       )}
-                      <div className="text-[21px] text-[#000E5A]">
+                      <div className="text-[21px]  text-[#000E5A]">
                         {date.name}
                       </div>
                     </div>

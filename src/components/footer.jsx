@@ -32,13 +32,13 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-wrap justify-center xl:justify-end gap-4 xl:gap-16 items-center text-[#FFFFFF] text-[16px] xl:text-[20px]">
-            <button className="text-center">اتصل بنا</button>
-            <button className="text-center">البث المباشر</button>
-            <button className="flex items-center gap-2 text-center">
+            <button className="text-center cursor-pointer">اتصل بنا</button>
+            <button className="text-center cursor-pointer">البث المباشر</button>
+            <button className="flex items-center gap-2 text-center cursor-pointer">
               المسابقات
             </button>
-            <button className="text-center">الخدمات</button>
-            <button className="text-center">عن ميادين</button>
+            <button className="text-center cursor-pointer">الخدمات</button>
+            <button className="text-center cursor-pointer">عن ميادين</button>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
               placeholder="name@domain.com"
               className="w-full sm:w-[338px] h-[55px] bg-[#FFFFFF] border-[2px] border-[#E3E3E3] rounded-[10px] text-[#E3E3E3] text-right p-3"
             />
-            <button className="w-full sm:w-[150px] h-[55px] text-[18px] xl:text-[20px] bg-[#008062] rounded-[10px]">
+            <button className="w-full sm:w-[150px] h-[55px] text-[18px] xl:text-[20px] bg-[#008062] rounded-[10px] cursor-pointer">
               اشترك
             </button>
           </div>

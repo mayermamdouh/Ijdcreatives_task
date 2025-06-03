@@ -6,7 +6,7 @@ import ThirdSection from "@/components/third-section";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <AppBar />
       <FirstPage />
       <SecondPage />

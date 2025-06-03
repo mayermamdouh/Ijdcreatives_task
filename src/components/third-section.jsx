@@ -6,7 +6,7 @@ const ThirdSection = () => {
       <section className="flex flex-col gap-6">
         <section className="space-y-6">
           <div className="space-y-6">
-            <div className="text-[34px] text-[#177245]" dir="rtl">
+            <div className="text-[34px] font-thin text-[#177245]" dir="rtl">
               49 يوم
             </div>
             <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2  bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between px-7">
@@ -91,7 +91,7 @@ const ThirdSection = () => {
             </div>
           </div>
           <div className="space-y-6">
-            <div className="text-[34px] text-[#177245]" dir="rtl">
+            <div className="text-[34px] font-thin text-[#177245]" dir="rtl">
               249 يوم - 2011
             </div>
             <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2  bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
@@ -177,7 +177,7 @@ const ThirdSection = () => {
           </div>
           <div className="space-y-6">
             {" "}
-            <div className="text-[34px] text-[#177245]" dir="rtl">
+            <div className="text-[34px] font-thin text-[#177245]" dir="rtl">
               49 يوم
             </div>
             <div className="flex flex-row-reverse flex-wrap w-[100%] gap-10 py-2 bg-[#F2F2F2] rounded-[46px] items-center justify-center lg:justify-between	 px-7">
@@ -267,10 +267,10 @@ const ThirdSection = () => {
             <img
               src="/icons/back-button-white.svg"
               alt="arrow-icon"
-              className="w-[24px] h-[24px] sm:w-[31px] sm:h-[31px]"
+              className="w-[24px] h-[24px] sm:w-[31px] sm:h-[31px] cursor-pointer"
             />
           </div>
-          <div className="flex flex-row-reverse flex-wrap gap-5 items-center">
+          <div className="flex flex-row-reverse flex-wrap gap-16 items-center">
             <div className="text-[15px]">
               Jul20 SAR Dirt Gd: 4F in 51 1\5 (23 of 34) B
             </div>
