@@ -110,28 +110,33 @@ const SecondPage = () => {
             </tbody>
           </table>
         </div>
-        <div className="w-[15%] ml-3 text-[#008062]  text-[18px] mr-4 whitespace-nowrap relative ">
-          <div className="text-[25px] absolute top-[60%] left-[2%]  sm:left-[40%]">
+        <div className="w-[15%] ml-3 text-[#008062] text-[14px] sm:text-[16px] md:text-[18px] mr-4 whitespace-nowrap relative ">
+          <div className="text-[18px] sm:text-[22px] md:text-[25px] absolute top-[60%] left-[2%] sm:left-[40%]">
             الأحداث
           </div>
-          <div className="flex flex-col text-[#000000] items-end mt-4">
-            <div className="text-[22px]">2024</div>
-            <div className="text-[36px]">أكتوبر</div>
+          <div className="flex flex-col text-[#000000] items-end mt-2 h-[100px]">
+            <div className="text-[16px] sm:text-[20px] md:text-[22px]">
+              2024
+            </div>
+            <div className="text-[24px] sm:text-[30px] md:text-[36px]">
+              أكتوبر
+            </div>
             <div className="flex flex-row gap-3 mt-10">
               <img
-                className="h-[35px] w-[35px]"
+                className="h-[30px] w-[30px] sm:h-[35px] sm:w-[35px]"
                 src="/icons/left-arrow-circle.svg"
                 alt="icon"
-              ></img>
+              />
               <img
-                className="h-[35px] w-[35px]"
+                className="h-[30px] w-[30px] sm:h-[35px] sm:w-[35px]"
                 src="/icons/right-arrow-circle.svg"
                 alt="icon"
-              ></img>
+              />
             </div>
           </div>
         </div>
-        <div className="absolute left-0 top-[198px] w-[100%] h-[4px] bg-[#E3E3E3] z-[-1]"></div>
+
+        <div className="absolute left-0 w-[100%] h-[4px] bg-[#E3E3E3] z-[-1] top-[155px] sm:top-[165px]  md:top-[198px]"></div>
       </div>
     </div>
   );
